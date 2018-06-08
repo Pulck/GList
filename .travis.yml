@@ -2,4 +2,5 @@ language: objective-c
 xcode_project: GList.xcodeproj # path to your xcodeproj folder
 xcode_scheme: GList
 script:
-    - xcodebuild clean build -project GList.xcodeproj -scheme GList CODE_SIGNING_REQUIRED=NO
+    - xcodebuild -project GList.xcodeproj -scheme GList clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
