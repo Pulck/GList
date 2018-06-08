@@ -1,3 +1,3 @@
 # GList
-https://travis-ci.org/Pulck/GList.svg?branch=master
+[![Build Status](https://travis-ci.org/Pulck/GList.svg?branch=master)](https://travis-ci.org/Pulck/GList)
 实现了广义表的创建，但缺少遍历方法。
